@@ -1,0 +1,138 @@
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root {
+    --blanco: #ffffff;
+    --negro: #000000;
+    --purpura: #434371;
+    --celeste: #3978F8;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 420px !important;
+}
+
+i {
+    font-size: 2rem;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--negro);
+}
+
+#facebook:hover {
+    color: blue;
+}
+
+#twitter:hover {
+    color: lightblue;
+}
+
+#instagram:hover {
+    color: var(--purpura);
+}
+
+#artesanias .carousel-inner img {
+    max-height: 50vh;
+    object-fit: cover;
+}
+
+#pinturas img {
+    max-height: 20vh;
+    object-fit: cover;
+}
+
+.modalImageDiv {
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    #autorretraro {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #autorretrato {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+@media screen and ( max-width: 320px) {
+    img.modalPintura {
+        width: 240px;
+        align-content: center;
+    }
+}
+
+@media screen and ( min-width:321px) and ( max-width: 411px) {
+    img.modalPintura {
+        width: 310px;
+    }
+}
+
+@media screen and ( min-width:412px) and ( max-width: 767px) {
+    img.modalPintura {
+        width: 360px;
+    }
+}
+
+@media screen and ( min-width:768px) and ( max-width: 995px) {
+    img.modalPintura {
+        width: 460px;
+    }
+}
+
+@media screen and ( min-width: 996px) {
+    img.modalPintura {
+        width: 768px;
+    }
+}
+
+img.modalPintura {
+    margin-top: 20px;
+    height: auto;
+}
+
+
+/* CCS DE CONTACTO.HTML */
+
+#parrafo {
+    text-align: justify;
+}
+
+.btn-enviar {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #000000;
+}
+
+.btn-enviar:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.fecha::before {
+    content: "FECHA NACIMIENTO...  ";
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #000;
+    background-color: #000;
+}
+
+.popover {
+    text-align: justify;
+    font-size: x-small;
+}

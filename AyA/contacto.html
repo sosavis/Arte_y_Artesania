@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Link CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Link Icons FontAwesone-->
+    <script
+      src="https://kit.fontawesome.com/ee8ec1a7c9.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link Fonts de Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contacto-Arte & Artesanía</title>
+    <link href="images/logoAyA.png" rel="icon" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col pl-0 pr-0">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="images/logoAyA.png"
+                width="70"
+                height="70"
+                class="d-inline-block align-top img-fluid"
+                alt="logo"
+                loading="lazy"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html"
+                    >Inicio <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="acerca.html">Acerca de mí</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="trabajos.html">Trabajos</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+              <span
+                ><nav class="navbar navbar-light bg-light">
+                  <form class="form-inline">
+                    <input
+                      class="form-control mr-sm-2"
+                      type="search"
+                      placeholder="Buscar"
+                      aria-label="Search"
+                    />
+                    <button
+                      class="btn btn-outline-dark my-2 my-sm-0"
+                      type="submit"
+                    >
+                      Buscar
+                    </button>
+                  </form>
+                </nav>
+              </span>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- NAVBAR -->
+
+    <!-- COMIENZO DE LA SECCION CORRESPONDIENTE A CADA MIEMBRO DEL EQUIPO  -->
+
+    <!-- FORM CONTACTO  -->
+    <section id="contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+            <div class="row">
+              <div class="col text-center text-uppercase mb-4">
+                <h2>Contacto</h2>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 text-align justify">
+                <p class="lead" id="parrafo">
+                  Puedes dejarme aquí cualquier consulta o comentario acerca de
+                  mi obra o de los proyectos en los que estoy trabajando, te
+                  responderé tan pronto como sea posible.
+                </p>
+                <p class="lead" id="parrafo">
+                  O completar el formulario para recibir un boletín con las
+                  últimas novedades en el mundo del arte.
+                </p>
+              </div>
+            </div>
+
+            <form>
+              <!-- 1ª fila con nombre y apellido -->
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="nombre"
+                      placeholder="NOMBRE..."
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="apellido"
+                      placeholder="APELLIDO..."
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- 2ª fila con sexo y residencia -->
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="sexo"
+                        id="sexo"
+                        value="femenino"
+                      />
+                      <label class="form-check-label" for="sexo"
+                        >Femenino</label
+                      >
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="sexo"
+                        id="sexo"
+                        value="masculino"
+                      />
+                      <label class="form-check-label" for="sexo"
+                        >Masculino</label
+                      >
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="sexo"
+                        id="sexo"
+                        value="noinfomado"
+                      />
+                      <label class="form-check-label" for="sexo"
+                        >Prefiero no informarlo</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <select class="form-control" id="pais" required>
+                      <option selected value="">DÓNDE RESIDES...</option>
+                      <option value="AR">Argentina</option>
+                      <option value="BO">Bolivia</option>
+                      <option value="BR">Brasil</option>
+                      <option value="CL">Chile</option>
+                      <option value="CO">Colombia</option>
+                      <option value="EC">Ecuador</option>
+                      <option value="PY">Paraguay</option>
+                      <option value="PE">Perú</option>
+                      <option value="UY">Uruguay</option>
+                      <option value="VE">Venezuela</option>
+                      <option value="OTH">Otro</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <!-- 3ª fila profesión y fecha de nacimiento -->
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <select
+                      name="profesion"
+                      id="profesion"
+                      class="custom-select"
+                      required
+                    >
+                      <option selected value="">PROFESIÓN... </option>
+                      <option value="est">Estudiante</option>
+                      <option value="emp">Empleada/o</option>
+                      <option value="aut">Autónoma/o</option>
+                      <option value="jub">Jubilada/o</option>
+                      <option value="otr">Otro</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <input type="date" id="fnac" class="form-control fecha" />
+                  </div>
+                </div>
+              </div>
+              <!-- 4ª fila email  -->
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="c_email"
+                      placeholder="EMAIL..."
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- 5ª fila mensaje -->
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      id="mensaje"
+                      placeholder="MENSAJE..."
+                      rows="1"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <!-- 6ª fila switch para recibir boletin y checkbox para aceptar politica privacidad (informada en popover) -->
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <div class="custom-control custom-switch">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="newsletter"
+                        checked
+                      />
+                      <label class="custom-control-label" for="newsletter"
+                        >Quiero recibir el boletín</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <div class="custom-control custom-checkbox">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="acepto"
+                        required
+                      />
+                      <label class="custom-control-label" for="acepto">
+                        Acepto
+                        <abbr
+                          title=" <small> Política de Privacidad </small>"
+                          data-content="
+                            ESTE SITIO Y SU CONTENIDO SON DE PROPIEDAD EXCLUSIVA
+                            DE ARTE Y ARTESANÍA. TODOS LOS DERECHOS RESERVADOS.
+                            AL ACCEDER A ESTE SITIO USTED AUTOMÁTICAMENTE CONCUERDA 
+                            CON SUS TÉRMINOS DE USO Y CON NUESTRA POLÍTICA DE 
+                            PRIVACIDAD DE FORMA INTEGRAL E IRRESTRICTA, SIENDO RESPONSABLE 
+                            INTEGRALMENTE POR TODOS Y CUALQUIER ACTO PRACTICADO EN EL SITIO 
+                            O EN LO RELACIONADO A ÉL.
+                            EN EL CASO QUE USTED NO CONCUERDE CON ESTOS TÉRMINOS, 
+                            O PARTE DE ELLOS, USTED NO DEBE 
+                            ACCEDER A ESTE SITIO NI CONSUMIR SUS CONTENIDOS."
+                          data-toggle="popover"
+                          data-trigger="hover"
+                          data-placement="right"
+                          animation="true"
+                        >
+                          Política de Privacidad</abbr
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-enviar">ENVIAR</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /FORM CONTACTO  -->
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container-fluid bg-light">
+        <div class="row">
+          <div class="col text-center mt-3 pl-0 pr-0">
+            <p>
+              <a id="facebook" href="#"
+                ><i class="fab fa-facebook-square"></i
+              ></a>
+              <a id="twitter" href="#"><i class="fab fa-twitter-square"></i></a>
+              <a id="instagram" href="#"><i class="fab fa-instagram"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center mt-3 pl-0 pr-0">
+            <p>
+              <strong>
+                &#127912; ArteyArtesania.com todos los derechos reservados
+                &copy; 2020.</strong
+              >
+            </p>
+            <p>
+              Desarrollado por Arto's Team.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /FOOTER -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- script para manejar el popover -->
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover({
+          html:true,
+          delay: 500});
+      });
+      
+    </script>
+  </body>
+</html>
